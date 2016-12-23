@@ -1,12 +1,30 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "Glossary"
+    url: /glossary/
+  - title: "Localization"
+    url: /localization/
+  - title: "Resources"
+    url: /Resources/
+#  - title: "Case Studies"
+#    url: /cases/
+  - title: "Community"
+    url: /community/
+
+resources:
+  - title: General Resources
+    children:
+      - title: "Language Learning"
+        url: /resources#language-learning/
+      - title: "Software Development"
+        url: /resources#software-development/
+      - title: "Text Processing"
+        url: /resources#text-processing/
+  - title: Specific Language Resources
+    children:
+      - title: "Cherokee - ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ"
+        url: /resources/chr/
+      - title: "Lakota - Lakȟótiyapi"
+        url: /resources/lkt/
